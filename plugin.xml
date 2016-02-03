@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-nslookup"
+    version="0.1.0">
+    <name>Nslookup</name>
+    <description>Cordova Nslookup Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,nslookup</keywords>
+    <repo>https://github.com/t1st3/cordova-plugin-nslookup.git</repo>
+    <issue>https://github.com/t1st3/cordova-plugin-nslookup/issues</issue>
+
+    <js-module src="www/nslookup.js" name="nslookup">
+      <clobbers target="NsLookup" />
+    </js-module>
+
+    <platform name="android">
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="Nslookup">
+          <param name="android-package" value="org.tiste.cordova.nslookup.Nslookup"/>
+        </feature>
+      </config-file>
+      <source-file src="src/android/libs/dnsjava-2.1.7.jar" target-dir="libs" />
+      <source-file src="src/android/Nslookup.java" target-dir="src/org/tiste/cordova/nslookup"/>
+    </platform>
+  </plugin>

@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-nslookup",
+  "version": "0.1.0",
+  "description": "Cordova Nslookup Plugin",
+  "cordova": {
+    "id": "cordova-plugin-nslookup",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t1st3/cordova-plugin-nslookup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/t1st3/cordova-plugin-nslookup/issues"
+  },
+  "keywords": [
+    "cordova",
+    "nslookup",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "t1st3",
+  "license": "MIT"
+}
