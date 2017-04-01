@@ -1,6 +1,8 @@
 
 # cordova-plugin-nslookup
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/t1st3/cordova-plugin-nslookup.svg)](https://greenkeeper.io/)
+
 [![NPM version](https://img.shields.io/npm/v/cordova-plugin-nslookup.svg)](https://www.npmjs.org/package/cordova-plugin-nslookup)
 
 This plugin implements the [`nslookup` software utility](https://en.wikipedia.org/wiki/Nslookup).
